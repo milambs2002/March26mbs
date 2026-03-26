@@ -1,0 +1,101 @@
+/* Mila's CSS print file */
+/*This license can also be found at this permalink: https://www.fontsquirrel.com/license/happy-monkey. Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved Font Name "Happy Monkey"*/
+
+@font-face {font-family: 'HappyMonkey-Regular';
+             src: url(HappyMonkey-Regular.ttf);
+             font-weight: normal;
+             font-style: normal;}
+
+/* testing out body image, hiding body color
+body {font-family: "matura MT script capitals", "lucida sans", sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background: #f1abd3; } end of my comment*/
+
+body {font-family:"comic sans MS", "lucida sans", sans-serif;
+      font-size: 20pt;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0; 
+      color: black; }
+
+h1, h2, h3 {font-family: "lucida sans";
+            font-weight: normal;}
+
+h1 {font-size: 200%;}
+h2 {font-size: 170%;}
+
+/*march 12 stuff under this*/
+
+p, h1, h2, ol, ul {margin-top: 0;
+		   margin-bottom: 1px;}
+ol { padding-left: 0;
+     margin-left: 30px;}
+
+img {padding: 4px;
+     border: 1px solid white;
+     background-color: white;}
+
+a {color: #F8B8E8;
+   font-weight: bold;
+   text-decoration: none;
+   border-bottom: 1px solid white;
+   padding-bottom: 1px; }
+
+a:visited { color: #F78CDD;}
+
+a:hover, a:focus, a:active {background-color: white; 
+                            color: #F45CCF;
+                            border-bottom-color: white;}
+
+div#wrapper {width: 728px;
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: 10px;
+             margin-bottom: 10px;
+             background-color: white;
+             border: 2px dotted #F78CDD; }
+
+header {height: 90px; 
+        margin-bottom: 20px;}
+
+header h1, header p {text-indent: -999999999999999999px;}
+
+.home header {background: white url(images/2.png) no-repeat;}
+
+.about header {background: white url(images/1.png) no-repeat;}
+
+
+/*march 19th class stuff under this*/
+article {width: 500px;
+         padding-left: 10px;}
+
+nav {display: none;
+     width: 200px;
+     padding-right: 5px;}
+
+footer {padding: 10px;
+        font-size: 75%;
+        height: 1%;
+        background-color: #F78CDD;
+        color: white;
+        border-top: 2px dotted white;}
+
+footer p {margin-bottom: 0;}
+
+footer a:link {color: white;}
+
+footer a:hover, footer a:focus, footer a:active {background-color: transparent;
+                                                 border: none;}
+
+nav a:hover {background-color: white;}
+nav li {display: inline;}
+table {border: 1px solid black;}
+caption {display: none;}
+thead {color: white;
+       background-color: #cccccc;
+       text-align: left; }
+tbody {font-family: "comic sans MS";
+       font-size: 90%;}
